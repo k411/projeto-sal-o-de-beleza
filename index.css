@@ -1,0 +1,141 @@
+* {
+    margin:0px;
+    padding:0px;
+    box-sizing:border-box;
+}
+.topo {
+    background:linear-gradient(to right, rgb(0, 0, 0),rgba(255,255,255)); 
+    width:100%;
+    height:100px;
+}
+header {
+    display:flex;
+    justify-content:center;
+    width:100%;
+    height:100px;
+}
+header  {
+    display:flex;
+    align-items:center;
+    font-size:40px;
+    color:rgba(10, 10, 10, 0.4);
+}
+.banner {
+    display:flex;
+    align-items:center;
+    justify-content:space-between;
+    width:100%;
+    max-width:1800px;
+    margin:auto;
+    height:600px;
+}
+.image {
+    width:500px;
+    height:600px;
+}
+.image img {
+    width:500px;
+    height:600px;
+}
+#items {
+    display:flex;
+    width:500px;
+    height:600px;
+    overflow-x:auto;
+    align-items:center;
+    scroll-snap-type:x mandatory;
+}
+
+#items img {
+    flex:none;
+    object-fit:cover;
+    width:100%;
+    height:100%;
+    scroll-snap-align:start;
+}
+.image2 {
+    width:490px;
+    height:600px;
+}
+.image2 img {
+    width:500px;
+    height:600px;
+}
+footer {
+    background:linear-gradient(to right ,rgba(255,255,255), rgba(0,0,0));
+    display:flex;
+    justify-content:space-between;
+    width:100%;
+    margin:auto;
+    height:150px;
+    margin-top:30px;
+   }
+   .left {
+    display:flex;
+    width:50%;
+    margin:5px;
+    padding:5px;
+   }
+   .left ul {
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    justify-content:space-around;
+    color:rgb(90, 89, 89);
+    padding:0px 0px 0px 14px;;
+   }
+   .left ul {
+    list-style-type:none;
+   }
+   .list_inicio ul{
+       display:flex;
+       justify-content:flex-end;
+       width:600px;
+       padding-left:125px;
+       padding-top:5px;
+       position:absolute;
+   }
+   .list_inicio ul li{
+    display:flex;
+    justify-content:flex-end;
+    width:600px;
+    font-size:18px;
+   }
+   .list_inicio ul {
+    display:none;
+   }
+   .list_inicio:hover ul {
+    display:inline-flex;
+   }
+   img {
+    height:20px;
+    padding-right:10px;
+   }
+   .list ul {
+    display:none;
+   }
+   .list ul li{
+    display:flex;
+    justify-content:flex-end;
+    width:600px;
+   }
+   .list:hover ul {
+    display:inline-flex;
+   }
+   .right {
+    display:flex;
+    justify-content:flex-end;
+    align-items:center;
+    width:50%;
+    margin:5px;
+    padding:5px;
+   }
+   a {
+       text-decoration:none;
+       color:rgba(90,89,89);
+   }
+   a:hover {
+       background-color:rgb(207, 207, 204);
+       border-radius:100px;
+   }
+   
